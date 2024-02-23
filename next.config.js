@@ -28,6 +28,7 @@ const { protocol, hostname, port, pathname } = new URL(
 }; */
 module.exports = {
     reactStrictMode: true,
+	output: "standalone",
     images: {
         domains: [
             "localhost",
@@ -38,3 +39,4 @@ module.exports = {
         ],
     },
 };
+
